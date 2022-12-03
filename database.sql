@@ -42,3 +42,6 @@ insert into product (name, price, category_id, percent, image) values ('Koff Lag
 insert into product (name, price, category_id, percent, image) values ('Karhu Lager', 2.00, 1, 4.5, 'placeholder.png');
 insert into product (name, price, category_id, percent, image) values ('Pirkka Lager', 2.00, 1, 4.5, 'placeholder.png');
 insert into product (name, price, category_id, percent, image) values ('Python Pale Ale', 6.00, 1, 6.0, 'placeholder.png');
+
+alter table product
+add description varchar(255)
