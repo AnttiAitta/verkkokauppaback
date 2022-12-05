@@ -45,3 +45,52 @@ insert into product (name, price, category_id, percent, image) values ('Python P
 
 alter table product
 add description varchar(255)
+
+update product
+set description = 'Perinteinen lagerolut, joka on tuotevakimoimamme suosituin!'
+where id = 1;
+update product
+set description = 'Voimakkaan humalainen ja raikas IPA olut'
+where id = 2;
+update product
+set description = 'Tumma ja erittäin maltainen pintahiiva olut, joka sopii erinomaisesti ruokajuomaksi'
+where id = 3;
+update product
+set description = 'Perinteinen saksalaistyyppinen vehnäolut, jossa ripaus korianteria'
+where id = 4;
+update product
+set description = 'Tähän tyylikkääseen tuoppiin mahtuu kokonaisen pintin verran'
+where id = 5;
+update product
+set description = 'Tämä amerikkalaistyylinen, erittäin maukas pintahiivaolut on valikoimamme vahvin!'
+where id = 6;
+update product
+set description = 'Erittäin tumma ja maltaisen maukas pintahiivaolut'
+where id = 7;
+update product
+set description = 'Tämän tyylikkäämmin ei olutta voi nauttia! Koot: S - XXXXXL'
+where id = 8;
+update product
+set description = 'Tässä raikkaassa lageroluessa makua tuo pieni sitruunan vivahde'
+where id = 9;
+update product
+set description = 'Tuhdisti humaloitu täysmallasolut'
+where id = 10;
+update product
+set description = 'Raikas ja sopivan kirpeä hapanolut saa lisäpotkua käyneistä pihlajanmarjoista'
+where id = 11;
+update product
+set description = 'Yleisön pyynnöstä valikoimaamme lisätty Pirkka Lager ei esittelyä kaipaa'
+where id = 12;
+update product
+set description = 'Yhteistyökumppanimme suosittua lagerolutta löytyy nyt myös meidän valokoimastamme!'
+where id = 13;
+update product
+set description = 'Yhteistyökumppanimme suosittua lagerolutta löytyy nyt myös meidän valokoimastamme!'
+where id = 14;
+update product
+set description = 'Yleisön pyynnöstä valikoimaamme lisätty Pirkka Lager ei esittelyä kaipaa'
+where id = 15;
+update product
+set description = 'Vuoden 2022 olutpalkinnon voittaja on ykkösvalinta illanviettoon!'
+where id = 16;
